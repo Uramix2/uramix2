@@ -21,49 +21,46 @@
 <br/>
 
 <!-- ===================== ABOUT ===================== -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <h3>About</h3>
-      <p>
-        18 y.o. cybersecurity student at <b>OTERIA</b>, focused on <b>cryptography</b>.<br/>
-        I research weaknesses in modern cryptographic schemes and build tooling to break them,<br/>
-        and I'm designing my own post-quantum block cipher from the math up.<br/>
-        On the side: <b>binary exploitation</b> and <b>web security</b>, sharpened through CTFs.
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=About&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="about"/>
+</p>
+
+<p align="center">
+  18 y.o. cybersecurity student at <b>OTERIA</b>, focused on <b>cryptography</b>.<br/>
+  I research weaknesses in modern cryptographic schemes and build tooling to break them,<br/>
+  and I'm designing my own post-quantum block cipher from the math up.<br/>
+  On the side: <b>binary exploitation</b> and <b>web security</b>, sharpened through CTFs.
+</p>
 
 <br/>
 
 <!-- ===================== FEATURED RESEARCH ===================== -->
-<h2 align="center">🔬 Featured Research — TF-Cipher</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8957e5,100:1f6feb&height=46&text=Featured%20Research%20%E2%80%94%20TF-Cipher&fontColor=ffffff&fontSize=24&fontAlignY=56" alt="featured research"/>
+</p>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <p>
-        A from-scratch <b>post-quantum symmetric block cipher</b> built on<br/>
-        <b>Klimov–Shamir T-functions</b> inside an <b>ARX Feistel network</b>.<br/>
-        I document the whole research journey openly, dead ends included.
-      </p>
-      <p>
-        <b>Why it's different:</b> a modular-addition mesh that turns the polynomial-time<br/>
-        quantum attack (Simon) into a hard hidden-shift problem (Kuperberg, sub-exponential).<br/>
-        <sub><i>Work in progress — no security proof yet, and I say so. The reduction is the goal.</i></sub>
-      </p>
-      <p>
-        <a href="https://uramix2.github.io"><img src="https://img.shields.io/badge/Read%20the%20write--ups-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" alt="writeups"/></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  A from-scratch <b>post-quantum symmetric block cipher</b> built on<br/>
+  <b>Klimov&ndash;Shamir T-functions</b> inside an <b>ARX Feistel network</b>.<br/>
+  I document the whole research journey openly, dead ends included.
+</p>
+
+<p align="center">
+  <b>Why it's different:</b> a modular-addition mesh that turns the polynomial-time<br/>
+  quantum attack (Simon) into a hard hidden-shift problem (Kuperberg, sub-exponential).<br/>
+  <sub><i>Work in progress &mdash; no security proof yet, and I say so. The reduction is the goal.</i></sub>
+</p>
+
+<p align="center">
+  <a href="https://uramix2.github.io"><img src="https://img.shields.io/badge/Read%20the%20write--ups-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" alt="writeups"/></a>
+</p>
 
 <br/>
 
 <!-- ===================== FOCUS ===================== -->
-<h2 align="center">Focus Areas</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=Focus%20Areas&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="focus areas"/>
+</p>
 
 <table align="center">
   <tr>
@@ -104,7 +101,9 @@
 <br/>
 
 <!-- ===================== TECH STACK ===================== -->
-<h2 align="center">Tech Stack</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8957e5,100:1f6feb&height=46&text=Tech%20Stack&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="tech stack"/>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python"/>
@@ -124,7 +123,9 @@
 <br/>
 
 <!-- ===================== STATS ===================== -->
-<h2 align="center">GitHub Stats</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=GitHub%20Stats&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="github stats"/>
+</p>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Uramix2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0a0a0a&title_color=1f6feb&icon_color=8957e5" alt="stats"/>
@@ -136,7 +137,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Uramix2&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Uramix2&theme=tokyonight&column=4&row=2&margin-w=8&margin-h=8" alt="trophies"/>
 </p>
 
 <br/>
