@@ -11,86 +11,36 @@
   <img src="https://img.shields.io/badge/Discord-uramix2-b05060?style=flat-square&labelColor=0a0a0f&logo=discord&logoColor=d06878" alt="Discord: uramix2"/>
 </p>
 
-## About
+<h3><img src="./h-about.svg" alt="About" width="100%"/></h3>
 
 I'm Axel, an 18-year-old cybersecurity student at **Oteria**. My focus is offensive security: getting a first foothold through a web application, escalating privileges on the host, then moving through an Active Directory environment.
 
 I train on Hack The Box and Root-Me, play CTFs, and write up what I learn on [my blog](https://uramix2.github.io). Cryptography is my hobby on the side, and it is where my research project TF-Cipher lives.
 
-## Focus
-
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <h3>Web exploitation</h3>
-      <p>
-        SQL injection<br/>
-        XSS<br/>
-        SSRF<br/>
-        SSTI<br/>
-        Authentication bypass
-      </p>
-    </td>
-    <td valign="top" width="33%">
-      <h3>Privilege escalation</h3>
-      <p>
-        Linux enumeration<br/>
-        SUID and capabilities abuse<br/>
-        Kernel exploits<br/>
-        Misconfigured services
-      </p>
-    </td>
-    <td valign="top" width="33%">
-      <h3>Active Directory</h3>
-      <p>
-        Domain enumeration<br/>
-        Kerberoasting, AS-REP roasting<br/>
-        Credential abuse<br/>
-        Lateral movement
-      </p>
-    </td>
-  </tr>
-</table>
-
-Also: binary exploitation (buffer overflows, shellcode, ret2win, ROP, format strings).
-
-## Write-ups
-
-| | |
-|---|---|
-| [Pwn Project — Buffer Overflow & Shellcode](https://uramix2.github.io/posts/pwn-project-ftp/) | Integer truncation into a stack overflow, then shellcode in an RWX page to get around NX |
-| [Secure AES](https://uramix2.github.io/posts/secure-aes-write-up/) | Timing attack to recover the IV, then a padding oracle on a custom AES-CBC |
-| [This is fine](https://uramix2.github.io/posts/this-is-fine/) | CPython small-integer caching and Vieta's formulas |
-| [What is d?](https://uramix2.github.io/posts/cnc-crypto-write-up/) | A Mersenne prime in an RSA modulus, and a flag hidden in the private key |
-| [TF-Cipher](https://uramix2.github.io/posts/tf-cipher/) | Research notes on designing a block cipher from T-functions |
-
-## Toolbox
+<h3><img src="./h-focus.svg" alt="Focus" width="100%"/></h3>
 
 <p>
-  <img src="https://img.shields.io/badge/Burp%20Suite-0a0a0f?style=flat-square&logo=burpsuite&logoColor=d06878" alt="Burp Suite"/>
-  <img src="https://img.shields.io/badge/Nmap-0a0a0f?style=flat-square" alt="Nmap"/>
-  <img src="https://img.shields.io/badge/BloodHound-0a0a0f?style=flat-square" alt="BloodHound"/>
-  <img src="https://img.shields.io/badge/Impacket-0a0a0f?style=flat-square" alt="Impacket"/>
-  <img src="https://img.shields.io/badge/GDB%20%2F%20pwndbg-0a0a0f?style=flat-square" alt="GDB / pwndbg"/>
-  <img src="https://img.shields.io/badge/pwntools-0a0a0f?style=flat-square" alt="pwntools"/>
-  <img src="https://img.shields.io/badge/Ghidra-0a0a0f?style=flat-square" alt="Ghidra"/>
-  <img src="https://img.shields.io/badge/Wireshark-0a0a0f?style=flat-square&logo=wireshark&logoColor=d06878" alt="Wireshark"/>
+  <img src="./focus.svg" alt="Web exploitation: SQL injection, XSS, SSRF, SSTI, authentication bypass. Privilege escalation: Linux enumeration, SUID and capabilities abuse, kernel exploits, misconfigured services. Active Directory: domain enumeration, Kerberoasting, AS-REP roasting, credential abuse, lateral movement." width="100%"/>
 </p>
+
+Also binary exploitation: buffer overflows, shellcode, ret2win, ROP, format strings.
+
+<h3><img src="./h-writeups.svg" alt="Write-ups" width="100%"/></h3>
+
 <p>
-  <img src="https://img.shields.io/badge/Python-0a0a0f?style=flat-square&logo=python&logoColor=d06878" alt="Python"/>
-  <img src="https://img.shields.io/badge/Bash-0a0a0f?style=flat-square&logo=gnubash&logoColor=d06878" alt="Bash"/>
-  <img src="https://img.shields.io/badge/C-0a0a0f?style=flat-square&logo=c&logoColor=d06878" alt="C"/>
-  <img src="https://img.shields.io/badge/Rust-0a0a0f?style=flat-square&logo=rust&logoColor=d06878" alt="Rust"/>
-  <img src="https://img.shields.io/badge/Linux-0a0a0f?style=flat-square&logo=linux&logoColor=d06878" alt="Linux"/>
+  <a href="https://uramix2.github.io/posts/tf-cipher/"><img src="./wu-tf-cipher.svg" alt="TF-Cipher : l&#x27;histoire d&#x27;un chiffrement nouveau — Research notes on designing a block cipher from T-functions" width="100%"/></a>
+  <a href="https://uramix2.github.io/posts/pwn-project-ftp/"><img src="./wu-pwn-project-ftp.svg" alt="Pwn Project — Buffer Overflow &amp; Shellcode — Integer truncation, stack overflow, then shellcode in an RWX page" width="100%"/></a>
+  <a href="https://uramix2.github.io/posts/this-is-fine/"><img src="./wu-this-is-fine.svg" alt="This is fine — CPython small-integer caching and Vieta&#x27;s formulas" width="100%"/></a>
+  <a href="https://uramix2.github.io/posts/secure-aes-write-up/"><img src="./wu-secure-aes.svg" alt="Secure AES — Timing attack on the IV, then a padding oracle on a custom AES-CBC" width="100%"/></a>
+  <a href="https://uramix2.github.io/posts/cnc-crypto-write-up/"><img src="./wu-what-is-d.svg" alt="What is d? — A Mersenne prime in an RSA modulus, and a flag hidden in the private key" width="100%"/></a>
 </p>
 
-## GitHub
+<h3><img src="./h-toolbox.svg" alt="Toolbox" width="100%"/></h3>
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Uramix2&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=d06878&icon_color=b05060&text_color=c8c3d8" alt="GitHub stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uramix2&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=d06878&text_color=c8c3d8" alt="Most used languages"/>
+<p>
+  <img src="./toolbox.svg" alt="Web: Burp Suite, Metasploit . Active Directory: BloodHound, Impacket. Pwn and reverse: GDB / pwndbg, pwntools, Ghidra. Network: Nmap, Wireshark. Languages: Python, Bash, C, ASM." width="100%"/>
 </p>
 
 <p align="center">
-  <img src="./footer.svg" alt="" width="100%"/>
+  <img src=".footer.svg" alt="" width="100%"/>
 </p>
