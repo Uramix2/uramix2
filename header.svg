@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Uramix — red team, web exploitation, privilege escalation, Active Directory">
+  <defs>
+    <radialGradient id="neb1" cx="12%" cy="30%" r="55%"><stop offset="0" stop-color="#78203a" stop-opacity="0.42"/><stop offset="1" stop-color="#78203a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2" cx="78%" cy="60%" r="60%"><stop offset="0" stop-color="#3e2f86" stop-opacity="0.4"/><stop offset="1" stop-color="#3e2f86" stop-opacity="0"/></radialGradient>
+    <radialGradient id="disc" cx="922" cy="124" r="153.60000000000002" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3f0f9"/><stop offset="0.45" stop-color="#dcd6e8"/><stop offset="0.8" stop-color="#bbb4cf"/><stop offset="1" stop-color="#9690b0"/>
+    </radialGradient>
+    <radialGradient id="limb" cx="928" cy="132" r="128.64000000000001" gradientUnits="userSpaceOnUse">
+      <stop offset="0.6" stop-color="#0a0814" stop-opacity="0"/><stop offset="1" stop-color="#0a0814" stop-opacity="0.65"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" x2="1"><stop offset="0" stop-color="#0d0a18" stop-opacity="0"/><stop offset="0.2" stop-color="#0d0a18" stop-opacity="0.75"/><stop offset="0.8" stop-color="#0d0a18" stop-opacity="0.75"/><stop offset="1" stop-color="#0d0a18" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rule" x1="0" x2="1"><stop offset="0" stop-color="#b05060"/><stop offset="1" stop-color="#b05060" stop-opacity="0"/></linearGradient>
+    <filter id="seas" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="3" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="22"/><feGaussianBlur stdDeviation="2.6"/></filter>
+    <clipPath id="clip"><circle cx="940" cy="150" r="96"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="300" rx="16"/></clipPath>
+    <path id="leaf" d="M0 3 L-0.72 2.23 Q-1.3 2.16 -3.12 2.81 Q-2.28 1.06 -2.44 0.89 L-2.44 0.89 Q-3.94 1.06 -6.8 -0.24 Q-3.86 -1.33 -2.36 -1.1 L-2.36 -1.1 Q-4.63 -2.78 -6.02 -6.69 Q-2.28 -4.89 -0.93 -2.43 L-0.93 -2.43 Q-1.75 -5.74 0.0 -10.0 Q1.75 -5.74 0.93 -2.43 L0.93 -2.43 Q2.28 -4.89 6.02 -6.69 Q4.63 -2.78 2.36 -1.1 L2.36 -1.1 Q3.86 -1.33 6.8 -0.24 Q3.94 1.06 2.44 0.89 L2.44 0.89 Q2.28 1.06 3.12 2.81 Q1.3 2.16 0.72 2.23 Z"/>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .fall { animation: fall linear infinite; }
+      .spin { animation: spin linear infinite; transform-box: fill-box; transform-origin: center; }
+      .sway { animation: sway 7s ease-in-out infinite alternate; transform-origin: 1200px 20px; }
+      @keyframes fall { from { transform: translate(60px, -30px); } to { transform: translate(-90px, 330px); } }
+      @keyframes spin { from { rotate: 0deg; } to { rotate: 360deg; } }
+      @keyframes sway { from { transform: rotate(-0.5deg); } to { transform: rotate(0.7deg); } }
+      @media (prefers-reduced-motion: reduce) { .fall, .spin, .sway { animation: none; } .fall { display: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0a0a0f"/>
+    <rect width="1200" height="300" fill="url(#neb1)"/>
+    <rect width="1200" height="300" fill="url(#neb2)"/>
+    <g fill="#eef0ff">
+      <circle cx="62" cy="29" r="1" opacity="0.55"/><circle cx="595" cy="175" r="0.6" opacity="0.36"/><circle cx="668" cy="86" r="1.3" opacity="0.63"/><circle cx="169" cy="158" r="0.8" opacity="0.65"/><circle cx="608" cy="77" r="1" opacity="0.39"/><circle cx="335" cy="177" r="0.6" opacity="0.38"/><circle cx="941" cy="94" r="1" opacity="0.59"/><circle cx="752" cy="156" r="0.6" opacity="0.42"/><circle cx="434" cy="225" r="0.8" opacity="0.26"/><circle cx="137" cy="36" r="0.8" opacity="0.50"/><circle cx="316" cy="28" r="1.3" opacity="0.49"/><circle cx="668" cy="26" r="0.6" opacity="0.62"/><circle cx="609" cy="217" r="0.8" opacity="0.44"/><circle cx="505" cy="232" r="1.3" opacity="0.45"/><circle cx="458" cy="223" r="1.3" opacity="0.32"/><circle cx="886" cy="118" r="1.3" opacity="0.29"/><circle cx="85" cy="138" r="1" opacity="0.32"/><circle cx="436" cy="126" r="1.3" opacity="0.63"/><circle cx="300" cy="174" r="0.6" opacity="0.65"/><circle cx="654" cy="67" r="1.3" opacity="0.68"/><circle cx="92" cy="261" r="1.3" opacity="0.25"/><circle cx="441" cy="92" r="1" opacity="0.35"/><circle cx="975" cy="169" r="1.3" opacity="0.46"/><circle cx="559" cy="181" r="1.3" opacity="0.68"/><circle cx="162" cy="151" r="0.8" opacity="0.22"/><circle cx="271" cy="145" r="0.6" opacity="0.64"/><circle cx="961" cy="249" r="1.3" opacity="0.66"/><circle cx="457" cy="9" r="0.8" opacity="0.66"/><circle cx="36" cy="139" r="0.6" opacity="0.40"/><circle cx="790" cy="121" r="0.6" opacity="0.64"/><circle cx="423" cy="90" r="1" opacity="0.61"/><circle cx="1161" cy="249" r="1.3" opacity="0.21"/><circle cx="80" cy="65" r="1.3" opacity="0.48"/><circle cx="536" cy="79" r="0.6" opacity="0.38"/><circle cx="1081" cy="13" r="1" opacity="0.62"/><circle cx="163" cy="51" r="1.3" opacity="0.39"/><circle cx="647" cy="206" r="0.8" opacity="0.58"/><circle cx="829" cy="56" r="0.6" opacity="0.26"/><circle cx="759" cy="270" r="1.3" opacity="0.41"/><circle cx="919" cy="42" r="0.8" opacity="0.52"/><circle cx="990" cy="224" r="0.6" opacity="0.60"/><circle cx="352" cy="198" r="0.8" opacity="0.29"/><circle cx="315" cy="175" r="1.3" opacity="0.63"/><circle cx="539" cy="285" r="0.6" opacity="0.56"/><circle cx="21" cy="167" r="0.6" opacity="0.47"/><circle cx="1006" cy="255" r="0.6" opacity="0.46"/><circle cx="852" cy="158" r="1" opacity="0.31"/><circle cx="379" cy="8" r="0.6" opacity="0.50"/><circle cx="651" cy="286" r="1.3" opacity="0.59"/><circle cx="1173" cy="164" r="1.3" opacity="0.51"/><circle cx="915" cy="208" r="0.8" opacity="0.33"/><circle cx="751" cy="182" r="0.8" opacity="0.42"/><circle cx="304" cy="98" r="1" opacity="0.65"/><circle cx="771" cy="109" r="1" opacity="0.54"/><circle cx="201" cy="47" r="1.3" opacity="0.52"/><circle cx="377" cy="176" r="1" opacity="0.36"/><circle cx="625" cy="19" r="0.6" opacity="0.46"/><circle cx="191" cy="191" r="0.6" opacity="0.28"/><circle cx="1024" cy="47" r="0.6" opacity="0.29"/><circle cx="991" cy="121" r="1" opacity="0.63"/><circle cx="841" cy="129" r="1.3" opacity="0.55"/><circle cx="644" cy="196" r="0.8" opacity="0.57"/><circle cx="1110" cy="279" r="1.3" opacity="0.65"/><circle cx="829" cy="267" r="1.3" opacity="0.68"/><circle cx="651" cy="153" r="1.3" opacity="0.41"/><circle cx="36" cy="136" r="0.8" opacity="0.65"/><circle cx="949" cy="194" r="1.3" opacity="0.68"/><circle cx="67" cy="87" r="0.6" opacity="0.43"/><circle cx="721" cy="167" r="0.6" opacity="0.58"/><circle cx="1000" cy="121" r="1.3" opacity="0.65"/>
+    </g>
+
+    <!-- lune -->
+    <circle cx="940" cy="150" r="96" fill="url(#disc)"/>
+    <g clip-path="url(#clip)">
+      <g fill="#7d78a2" filter="url(#seas)" opacity="0.6">
+        <ellipse cx="912" cy="110" rx="34" ry="28"/><ellipse cx="962" cy="114" rx="20" ry="19"/><ellipse cx="980" cy="146" rx="23" ry="19"/>
+        <ellipse cx="880" cy="148" rx="24" ry="42"/><ellipse cx="928" cy="194" rx="23" ry="16"/>
+      </g>
+      <circle cx="942.4" cy="177.8" r="2" fill="#f4f1fa" opacity="0.52"/><circle cx="950.3" cy="156.6" r="2.6" fill="#f4f1fa" opacity="0.67"/><circle cx="963.7" cy="77.7" r="1.3" fill="#f4f1fa" opacity="0.53"/><circle cx="891.0" cy="209.1" r="1" fill="#f4f1fa" opacity="0.44"/><circle cx="953.0" cy="145.1" r="1.6" fill="#f4f1fa" opacity="0.63"/><circle cx="956.8" cy="195.4" r="1.6" fill="#f4f1fa" opacity="0.38"/><circle cx="883.9" cy="106.0" r="2.6" fill="#f4f1fa" opacity="0.44"/><circle cx="940.8" cy="196.0" r="2.6" fill="#f4f1fa" opacity="0.64"/><circle cx="986.9" cy="152.1" r="1.6" fill="#f4f1fa" opacity="0.65"/><circle cx="884.1" cy="147.1" r="2.6" fill="#f4f1fa" opacity="0.45"/><circle cx="900.0" cy="162.6" r="1.6" fill="#f4f1fa" opacity="0.63"/><circle cx="958.0" cy="155.0" r="1.6" fill="#f4f1fa" opacity="0.53"/><circle cx="896.5" cy="91.7" r="1.3" fill="#f4f1fa" opacity="0.70"/><circle cx="958.7" cy="202.6" r="1.3" fill="#f4f1fa" opacity="0.57"/><circle cx="905.3" cy="163.5" r="2" fill="#f4f1fa" opacity="0.61"/><circle cx="912.1" cy="208.7" r="1.6" fill="#f4f1fa" opacity="0.39"/><circle cx="978.5" cy="165.7" r="2.6" fill="#f4f1fa" opacity="0.57"/><circle cx="944.0" cy="199.9" r="1.3" fill="#f4f1fa" opacity="0.45"/>
+      <circle cx="940" cy="150" r="96" fill="url(#limb)"/>
+    </g>
+    <g>
+      <rect x="820" y="180" width="240" height="7" rx="3.5" fill="url(#mist)"/>
+      <rect x="870" y="193" width="170" height="5" rx="2.5" fill="url(#mist)"/>
+      <rect x="840" y="204" width="110" height="4" rx="2" fill="url(#mist)"/>
+      <rect x="690" y="160" width="120" height="2.5" rx="1.25" fill="url(#mist)" opacity="0.5"/>
+      <rect x="1000" y="220" width="190" height="2.5" rx="1.25" fill="url(#mist)" opacity="0.5"/>
+    </g>
+
+    <!-- branche d'érable -->
+    <g class="sway">
+      <g fill="none" stroke="#160a12" stroke-linecap="round">
+        <path d="M1210 14 C1130 40 1040 62 960 96 C900 122 840 150 760 164" stroke-width="7"/>
+        <path d="M760 164 C744 168 732 176 722 190" stroke-width="2.6"/>
+        <path d="M1040 66 C1030 54 1010 46 984 44" stroke-width="3"/>
+        <path d="M940 104 C920 88 892 72 866 58" stroke-width="3"/>
+        <path d="M866 58 C852 60 846 66 840 76" stroke-width="1.8"/>
+        <path d="M880 130 C868 118 838 112 810 116" stroke-width="2.6"/>
+        <path d="M810 116 C798 108 790 102 784 94" stroke-width="1.6"/>
+        <path d="M910 118 C908 140 900 160 892 178" stroke-width="2.2"/>
+        <path d="M850 144 C848 148 846 150 844 152" stroke-width="1.6"/>
+        <path d="M1090 50 C1080 80 1068 98 1052 114 M1060 104 C1068 124 1074 138 1078 150" stroke-width="2.2"/>
+        <path d="M800 158 C786 150 764 142 748 140 M790 160 C782 164 774 162 770 162" stroke-width="1.8"/>
+      </g>
+      <g stroke="#3a0808" stroke-opacity="0.4" stroke-width="0.4">
+      <use href="#leaf" transform="translate(868 60) rotate(150) scale(1.5)" fill="#c22a22"/>
+      <use href="#leaf" transform="translate(842 74) rotate(200) scale(1.25)" fill="#d2331f"/>
+      <use href="#leaf" transform="translate(900 104) rotate(120) scale(1.35)" fill="#ee5a30"/>
+      <use href="#leaf" transform="translate(812 118) rotate(215) scale(1.5)" fill="#e8703a"/>
+      <use href="#leaf" transform="translate(786 96) rotate(170) scale(1.1)" fill="#e2452b"/>
+      <use href="#leaf" transform="translate(846 150) rotate(140) scale(1.3)" fill="#e2452b"/>
+      <use href="#leaf" transform="translate(770 160) rotate(205) scale(1.45)" fill="#a81f16"/>
+      <use href="#leaf" transform="translate(748 138) rotate(160) scale(1.05)" fill="#e2452b"/>
+      <use href="#leaf" transform="translate(894 176) rotate(110) scale(1.2)" fill="#c22a22"/>
+      <use href="#leaf" transform="translate(1012 70) rotate(190) scale(1.3)" fill="#a81f16"/>
+      <use href="#leaf" transform="translate(986 52) rotate(140) scale(1.1)" fill="#e2452b"/>
+      <use href="#leaf" transform="translate(1052 112) rotate(160) scale(1.4)" fill="#a81f16"/>
+      <use href="#leaf" transform="translate(1078 150) rotate(120) scale(1.15)" fill="#d2331f"/>
+      <use href="#leaf" transform="translate(726 188) rotate(195) scale(1.2)" fill="#e2452b"/>
+      </g>
+    </g>
+
+    <!-- feuilles qui tombent -->
+    <g class="fall" style="animation-duration:12.0s;animation-delay:-1.0s"><g transform="translate(996 0)"><use href="#leaf" class="spin" style="animation-duration:4.0s" transform="scale(0.85)" fill="#ee5a30" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:14.8s;animation-delay:-1.7s"><g transform="translate(800 0)"><use href="#leaf" class="spin" style="animation-duration:4.9s" transform="scale(0.93)" fill="#e8703a" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:15.6s;animation-delay:-8.1s"><g transform="translate(856 0)"><use href="#leaf" class="spin" style="animation-duration:5.2s" transform="scale(1.04)" fill="#d2331f" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:12.9s;animation-delay:-1.9s"><g transform="translate(709 0)"><use href="#leaf" class="spin" style="animation-duration:4.3s" transform="scale(1.05)" fill="#a81f16" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:13.0s;animation-delay:-7.8s"><g transform="translate(700 0)"><use href="#leaf" class="spin" style="animation-duration:4.3s" transform="scale(1.21)" fill="#e2452b" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:13.0s;animation-delay:-2.6s"><g transform="translate(855 0)"><use href="#leaf" class="spin" style="animation-duration:4.3s" transform="scale(0.86)" fill="#e8703a" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:13.0s;animation-delay:-8.7s"><g transform="translate(828 0)"><use href="#leaf" class="spin" style="animation-duration:4.3s" transform="scale(1.10)" fill="#a81f16" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:14.4s;animation-delay:-6.5s"><g transform="translate(697 0)"><use href="#leaf" class="spin" style="animation-duration:4.8s" transform="scale(1.35)" fill="#c22a22" opacity="0.9"/></g></g>
+    <g class="fall" style="animation-duration:10.7s;animation-delay:-2.5s"><g transform="translate(962 0)"><use href="#leaf" class="spin" style="animation-duration:3.6s" transform="scale(1.27)" fill="#e2452b" opacity="0.9"/></g></g>
+
+    <!-- texte -->
+    <text x="72" y="128" class="mono" font-size="64" font-weight="700" fill="#f0ecf5"><tspan fill="#b05060">&gt; </tspan>Uramix</text>
+    <rect x="74" y="150" width="330" height="2" fill="url(#rule)"/>
+    <text x="74" y="186" class="mono" font-size="19" fill="#c8c3d8">offensive security student</text>
+    <text x="74" y="216" class="mono" font-size="15.5" fill="#8a85a0">red team · web exploitation · privilege escalation · active directory</text>
+    <text x="74" y="256" class="mono" font-size="13" fill="#6a6580"><tspan fill="#a9c7ee" font-weight="700">❯</tspan> cat /etc/motd</text>
+  </g>
+</svg>

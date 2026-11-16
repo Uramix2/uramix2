@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="">
+  <defs>
+    <linearGradient id="r" x1="0" x2="1"><stop offset="0" stop-color="#b05060" stop-opacity="0"/><stop offset="0.5" stop-color="#b05060" stop-opacity="0.7"/><stop offset="1" stop-color="#b05060" stop-opacity="0"/></linearGradient>
+    <path id="leaf" d="M0 3 L-0.72 2.23 Q-1.3 2.16 -3.12 2.81 Q-2.28 1.06 -2.44 0.89 L-2.44 0.89 Q-3.94 1.06 -6.8 -0.24 Q-3.86 -1.33 -2.36 -1.1 L-2.36 -1.1 Q-4.63 -2.78 -6.02 -6.69 Q-2.28 -4.89 -0.93 -2.43 L-0.93 -2.43 Q-1.75 -5.74 0.0 -10.0 Q1.75 -5.74 0.93 -2.43 L0.93 -2.43 Q2.28 -4.89 6.02 -6.69 Q4.63 -2.78 2.36 -1.1 L2.36 -1.1 Q3.86 -1.33 6.8 -0.24 Q3.94 1.06 2.44 0.89 L2.44 0.89 Q2.28 1.06 3.12 2.81 Q1.3 2.16 0.72 2.23 Z"/>
+  </defs>
+  <rect x="100" y="36" width="1000" height="1.5" fill="url(#r)"/>
+  <use href="#leaf" transform="translate(140 22) rotate(30) scale(1.1)" fill="#e2452b"/><use href="#leaf" transform="translate(330 14) rotate(200) scale(0.8)" fill="#d2331f"/><use href="#leaf" transform="translate(610 26) rotate(120) scale(1.2)" fill="#d2331f"/><use href="#leaf" transform="translate(880 12) rotate(300) scale(0.9)" fill="#e2452b"/><use href="#leaf" transform="translate(1060 24) rotate(60) scale(1.1)" fill="#c22a22"/>
+</svg>
