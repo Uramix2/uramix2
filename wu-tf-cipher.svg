@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="TF-Cipher : l&#x27;histoire d&#x27;un chiffrement nouveau — Research notes on designing a block cipher from T-functions">
+  <rect x="0.75" y="3.75" width="898.5" height="62.5" rx="10" fill="#12121a" stroke="#1e1e30" stroke-width="1.5"/>
+  <rect x="0.75" y="16" width="2.5" height="38" rx="1.25" fill="#b05060"/>
+  <text x="22" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.5" font-weight="700" fill="#f0ecf5">TF-Cipher : l&#x27;histoire d&#x27;un chiffrement nouveau</text>
+  <text x="22" y="52" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#8a85a0">Research notes on designing a block cipher from T-functions</text>
+  <rect x="818.4" y="13" width="63.6" height="20" rx="4" fill="none" stroke="#c9707f" stroke-opacity="0.55"/><text x="850.2" y="27" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#c9707f" letter-spacing="0.5">CRYPTO</text><rect x="725.0" y="13" width="86.4" height="20" rx="4" fill="none" stroke="#c9707f" stroke-opacity="0.55"/><text x="768.2" y="27" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#c9707f" letter-spacing="0.5">RECHERCHE</text>
+  <text x="882" y="54" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#6a6580">10/06/26</text>
+</svg>

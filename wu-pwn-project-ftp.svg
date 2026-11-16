@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="Pwn Project — Buffer Overflow &amp; Shellcode — Integer truncation, stack overflow, then shellcode in an RWX page">
+  <rect x="0.75" y="3.75" width="898.5" height="62.5" rx="10" fill="#12121a" stroke="#1e1e30" stroke-width="1.5"/>
+  <rect x="0.75" y="16" width="2.5" height="38" rx="1.25" fill="#b05060"/>
+  <text x="22" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.5" font-weight="700" fill="#f0ecf5">Pwn Project — Buffer Overflow &amp; Shellcode</text>
+  <text x="22" y="52" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#8a85a0">Integer truncation, stack overflow, then shellcode in an RWX page</text>
+  <rect x="841.2" y="13" width="40.8" height="20" rx="4" fill="none" stroke="#c9707f" stroke-opacity="0.55"/><text x="861.6" y="27" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#c9707f" letter-spacing="0.5">PWN</text>
+  <text x="882" y="54" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#6a6580">01/06/26</text>
+</svg>
