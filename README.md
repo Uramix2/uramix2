@@ -1,153 +1,96 @@
-<!-- ===================== HEADER BANNER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1f6feb,100:8957e5&height=200&section=header&text=Uramix&fontColor=ffffff&fontSize=70&fontAlignY=35&desc=Cryptography%20Researcher%20%7C%20CTF%20Player%20%7C%20Security%20Student&descAlignY=58&descSize=18&animation=fadeIn" alt="header"/>
-</p>
-
-<!-- ===================== TYPING ANIMATION ===================== -->
-<p align="center">
-  <a href="https://github.com/Uramix2">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=900&color=1F6FEB&center=true&vCenter=true&width=640&lines=Breaking+modern+cryptography;Designing+a+post-quantum+block+cipher;Automating+attacks+with+Python+%26+SageMath;Binary+exploitation+%26+web+security;Always+grinding+CTFs" alt="typing"/>
-  </a>
-</p>
-
-<!-- ===================== SOCIALS ===================== -->
-<p align="center">
-  <a href="https://uramix2.github.io"><img src="https://img.shields.io/badge/Blog-0a0a0a?style=for-the-badge&logo=jekyll&logoColor=white" alt="blog"/></a>
-  <a href="https://discord.gg/uramix2"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord"/></a>
-  <a href="mailto:axel.michellet@oteria.fr"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-  <a href="https://cryptohack.org"><img src="https://img.shields.io/badge/CryptoHack-2EC4B6?style=for-the-badge&logoColor=white" alt="cryptohack"/></a>
-</p>
-
-<br/>
-
-<!-- ===================== ABOUT ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=About&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="about"/>
+  <img src="./header.svg" alt="Uramix — offensive security student: red team, web exploitation, privilege escalation, Active Directory" width="100%"/>
 </p>
 
 <p align="center">
-  18 y.o. cybersecurity student at <b>OTERIA</b>, focused on <b>cryptography</b>.<br/>
-  I research weaknesses in modern cryptographic schemes and build tooling to break them,<br/>
-  and I'm designing my own post-quantum block cipher from the math up.<br/>
-  On the side: <b>binary exploitation</b> and <b>web security</b>, sharpened through CTFs.
+  <a href="https://uramix2.github.io"><img src="https://img.shields.io/badge/blog-uramix2.github.io-b05060?style=flat-square&labelColor=0a0a0f" alt="Blog"/></a>
+  <a href="https://app.hackthebox.com/users/2204114"><img src="https://img.shields.io/badge/Hack%20The%20Box-profile-b05060?style=flat-square&labelColor=0a0a0f&logo=hackthebox&logoColor=d06878" alt="Hack The Box"/></a>
+  <a href="https://www.root-me.org/Uramix"><img src="https://img.shields.io/badge/Root--Me-Uramix-b05060?style=flat-square&labelColor=0a0a0f&logo=rootme&logoColor=d06878" alt="Root-Me"/></a>
+  <a href="https://tryhackme.com/p/Uramix"><img src="https://img.shields.io/badge/TryHackMe-Uramix-b05060?style=flat-square&labelColor=0a0a0f&logo=tryhackme&logoColor=d06878" alt="TryHackMe"/></a>
+  <a href="https://www.linkedin.com/in/axel-michellet/"><img src="https://img.shields.io/badge/LinkedIn-axel--michellet-b05060?style=flat-square&labelColor=0a0a0f" alt="LinkedIn"/></a>
+  <img src="https://img.shields.io/badge/Discord-uramix2-b05060?style=flat-square&labelColor=0a0a0f&logo=discord&logoColor=d06878" alt="Discord: uramix2"/>
 </p>
 
-<br/>
+## About
 
-<!-- ===================== FEATURED RESEARCH ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8957e5,100:1f6feb&height=46&text=Featured%20Research%20%E2%80%94%20TF-Cipher&fontColor=ffffff&fontSize=24&fontAlignY=56" alt="featured research"/>
-</p>
+I'm Axel, an 18-year-old cybersecurity student at **Oteria**. My focus is offensive security: getting a first foothold through a web application, escalating privileges on the host, then moving through an Active Directory environment.
 
-<p align="center">
-  A from-scratch <b>post-quantum symmetric block cipher</b> built on<br/>
-  <b>Klimov&ndash;Shamir T-functions</b> inside an <b>ARX Feistel network</b>.<br/>
-  I document the whole research journey openly, dead ends included.
-</p>
+I train on Hack The Box and Root-Me, play CTFs, and write up what I learn on [my blog](https://uramix2.github.io). Cryptography is my hobby on the side, and it is where my research project TF-Cipher lives.
 
-<p align="center">
-  <b>Why it's different:</b> a modular-addition mesh that turns the polynomial-time<br/>
-  quantum attack (Simon) into a hard hidden-shift problem (Kuperberg, sub-exponential).<br/>
-  <sub><i>Work in progress &mdash; no security proof yet, and I say so. The reduction is the goal.</i></sub>
-</p>
+## Focus
 
-<p align="center">
-  <a href="https://uramix2.github.io"><img src="https://img.shields.io/badge/Read%20the%20write--ups-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" alt="writeups"/></a>
-</p>
-
-<br/>
-
-<!-- ===================== FOCUS ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=Focus%20Areas&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="focus areas"/>
-</p>
-
-<table align="center">
+<table>
   <tr>
-    <td align="center" width="33%">
-      <h3>Cryptography</h3>
-      <sub>main field</sub>
-      <p align="left">
-        Cryptanalysis &middot; padding oracle<br/>
-        ECB byte-at-a-time &middot; CBC bit-flip<br/>
-        RSA (Coppersmith, LSB)<br/>
-        Lattice-based attacks<br/>
-        Post-quantum design
+    <td valign="top" width="33%">
+      <h3>Web exploitation</h3>
+      <p>
+        SQL injection<br/>
+        XSS<br/>
+        SSRF<br/>
+        SSTI<br/>
+        Authentication bypass
       </p>
     </td>
-    <td align="center" width="33%">
-      <h3>Binary Exploitation</h3>
-      <sub>offensive</sub>
-      <p align="left">
-        Format string &middot; stack overflow<br/>
-        Canary bypass<br/>
-        Shellcode injection<br/>
-        x86 / x64 internals
+    <td valign="top" width="33%">
+      <h3>Privilege escalation</h3>
+      <p>
+        Linux enumeration<br/>
+        SUID and capabilities abuse<br/>
+        Kernel exploits<br/>
+        Misconfigured services
       </p>
     </td>
-    <td align="center" width="33%">
-      <h3>Web Security</h3>
-      <sub>offensive</sub>
-      <p align="left">
-        Application flaw analysis<br/>
-        Critical vuln exploitation<br/>
-        Automation tooling<br/>
-        Recon &amp; scripting
+    <td valign="top" width="33%">
+      <h3>Active Directory</h3>
+      <p>
+        Domain enumeration<br/>
+        Kerberoasting, AS-REP roasting<br/>
+        Credential abuse<br/>
+        Lateral movement
       </p>
     </td>
   </tr>
 </table>
 
-<br/>
+Also: binary exploitation (buffer overflows, shellcode, ret2win, ROP, format strings).
 
-<!-- ===================== TECH STACK ===================== -->
+## Write-ups
+
+| | |
+|---|---|
+| [Pwn Project — Buffer Overflow & Shellcode](https://uramix2.github.io/posts/pwn-project-ftp/) | Integer truncation into a stack overflow, then shellcode in an RWX page to get around NX |
+| [Secure AES](https://uramix2.github.io/posts/secure-aes-write-up/) | Timing attack to recover the IV, then a padding oracle on a custom AES-CBC |
+| [This is fine](https://uramix2.github.io/posts/this-is-fine/) | CPython small-integer caching and Vieta's formulas |
+| [What is d?](https://uramix2.github.io/posts/cnc-crypto-write-up/) | A Mersenne prime in an RSA modulus, and a flag hidden in the private key |
+| [TF-Cipher](https://uramix2.github.io/posts/tf-cipher/) | Research notes on designing a block cipher from T-functions |
+
+## Toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/Burp%20Suite-0a0a0f?style=flat-square&logo=burpsuite&logoColor=d06878" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/Nmap-0a0a0f?style=flat-square" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/BloodHound-0a0a0f?style=flat-square" alt="BloodHound"/>
+  <img src="https://img.shields.io/badge/Impacket-0a0a0f?style=flat-square" alt="Impacket"/>
+  <img src="https://img.shields.io/badge/GDB%20%2F%20pwndbg-0a0a0f?style=flat-square" alt="GDB / pwndbg"/>
+  <img src="https://img.shields.io/badge/pwntools-0a0a0f?style=flat-square" alt="pwntools"/>
+  <img src="https://img.shields.io/badge/Ghidra-0a0a0f?style=flat-square" alt="Ghidra"/>
+  <img src="https://img.shields.io/badge/Wireshark-0a0a0f?style=flat-square&logo=wireshark&logoColor=d06878" alt="Wireshark"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-0a0a0f?style=flat-square&logo=python&logoColor=d06878" alt="Python"/>
+  <img src="https://img.shields.io/badge/Bash-0a0a0f?style=flat-square&logo=gnubash&logoColor=d06878" alt="Bash"/>
+  <img src="https://img.shields.io/badge/C-0a0a0f?style=flat-square&logo=c&logoColor=d06878" alt="C"/>
+  <img src="https://img.shields.io/badge/Rust-0a0a0f?style=flat-square&logo=rust&logoColor=d06878" alt="Rust"/>
+  <img src="https://img.shields.io/badge/Linux-0a0a0f?style=flat-square&logo=linux&logoColor=d06878" alt="Linux"/>
+</p>
+
+## GitHub
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8957e5,100:1f6feb&height=46&text=Tech%20Stack&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="tech stack"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Uramix2&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=d06878&icon_color=b05060&text_color=c8c3d8" alt="GitHub stats"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uramix2&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=d06878&text_color=c8c3d8" alt="Most used languages"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python"/>
-  <img src="https://img.shields.io/badge/SageMath-A6CE39?style=for-the-badge&logoColor=white" alt="sagemath"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="c"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="cpp"/>
-  <img src="https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="asm"/>
-  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="bash"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="latex"/>
-  <img src="https://img.shields.io/badge/pwntools-2C2255?style=for-the-badge&logoColor=white" alt="pwntools"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linux"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
-</p>
-
-<br/>
-
-<!-- ===================== STATS ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:8957e5&height=46&text=GitHub%20Stats&fontColor=ffffff&fontSize=26&fontAlignY=56" alt="github stats"/>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Uramix2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0a0a0a&title_color=1f6feb&icon_color=8957e5" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uramix2&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=1f6feb" alt="top langs"/>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Uramix2&theme=tokyonight&hide_border=true&background=0a0a0a&ring=1f6feb&fire=8957e5&currStreakLabel=1f6feb" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Uramix2&theme=tokyonight&column=4&row=2&margin-w=8&margin-h=8" alt="trophies"/>
-</p>
-
-<br/>
-
-<!-- ===================== FOOTER ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957e5,50:1f6feb,100:0a0a0a&height=120&section=footer" alt="footer"/>
-</p>
-
-<p align="center">
-  <i>Open to collaboration &mdash; especially on cryptography.</i><br/>
-  <img src="https://visitcount.itsvg.in/api?id=Uramix2&icon=0&color=0" alt="visits"/>
+  <img src="./footer.svg" alt="" width="100%"/>
 </p>
