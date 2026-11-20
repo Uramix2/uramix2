@@ -209,6 +209,8 @@ def build_header() -> str:
     <linearGradient id="gleft" gradientUnits="userSpaceOnUse" x1="700" y1="0" x2="812" y2="0"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
     <linearGradient id="gbot" gradientUnits="userSpaceOnUse" x1="0" y1="205" x2="0" y2="300"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
     <radialGradient id="goval" cx="{mx:.0f}" cy="{my:.0f}" r="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.6" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <!-- Halo de lumière lunaire : éclaire doucement le côté droit (radial -> pas de bord net). -->
+    <radialGradient id="glow" cx="{mx:.0f}" cy="{my:.0f}" r="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7a6472" stop-opacity="0.42"/><stop offset="0.5" stop-color="#5a4654" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4654" stop-opacity="0"/></radialGradient>
     <!-- Masque « screen » : la luminance de l'image sert d'opacité -> le noir devient transparent. -->
     <mask id="mlum" maskContentUnits="userSpaceOnUse"><use href="#moonimg"/></mask>
     <mask id="medge" maskContentUnits="userSpaceOnUse">
@@ -237,10 +239,17 @@ def build_header() -> str:
     <rect width="1200" height="300" fill="url(#neb2)"/>
     <g fill="#eef0ff">{stars_svg}</g>
 
+    <!-- halo de lumière lunaire (derrière la lune) -->
+    <rect width="1200" height="300" fill="url(#glow)"/>
+
     <!-- vraie image de lune : fondue dans le fond (noir rendu transparent) + bords estompés.
-         Masques imbriqués = intersection (luminance ∩ oval ∩ gauche ∩ bas). -->
+         Masques imbriqués = intersection (luminance ∩ oval ∩ gauche ∩ bas).
+         Posée DEUX fois (screen cumulatif) pour retrouver l'éclat de l'image d'origine. -->
     <g mask="url(#medge)"><g mask="url(#mbot)"><g mask="url(#moval)"><g mask="url(#mlum)">
-      <use href="#moonimg" opacity="0.98"/>
+      <use href="#moonimg"/>
+    </g></g></g></g>
+    <g mask="url(#medge)"><g mask="url(#mbot)"><g mask="url(#moval)"><g mask="url(#mlum)">
+      <use href="#moonimg" opacity="0.8"/>
     </g></g></g></g>
 
     <!-- feuilles qui tombent -->
