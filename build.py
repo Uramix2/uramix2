@@ -181,12 +181,12 @@ def build_header() -> str:
     # Feuilles d'érable qui tombent (comme sur le site, discrètes).
     rnd2 = random.Random(21)
     fall = []
-    for _ in range(7):
-        startx = round(rnd2.uniform(120, 620))
-        dur = round(rnd2.uniform(11, 16), 1)
-        delay = round(rnd2.uniform(-9, -1), 1)
-        spind = round(rnd2.uniform(3.6, 5.4), 1)
-        sc = round(rnd2.uniform(0.8, 1.3), 2)
+    for _ in range(16):
+        startx = round(rnd2.uniform(40, 1160))
+        dur = round(rnd2.uniform(10, 16), 1)
+        delay = round(rnd2.uniform(-15, -0.5), 1)
+        spind = round(rnd2.uniform(3.4, 5.6), 1)
+        sc = round(rnd2.uniform(0.75, 1.35), 2)
         col = rnd2.choice(LEAF_COLORS)
         fall.append(
             f'<g class="fall" style="animation-duration:{dur}s;animation-delay:{delay}s">'
@@ -198,13 +198,15 @@ def build_header() -> str:
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Uramix — offensive security student: red team, web exploitation, privilege escalation, Active Directory, pwn">
   <defs>
-    <radialGradient id="neb1" cx="10%" cy="22%" r="55%"><stop offset="0" stop-color="#78203a" stop-opacity="0.38"/><stop offset="1" stop-color="#78203a" stop-opacity="0"/></radialGradient>
-    <radialGradient id="neb2" cx="72%" cy="78%" r="60%"><stop offset="0" stop-color="#3e2f86" stop-opacity="0.30"/><stop offset="1" stop-color="#3e2f86" stop-opacity="0"/></radialGradient>
+    <!-- Nébuleuse UNIQUEMENT à gauche (derrière le texte) : le côté droit reste
+         uniformément sombre pour que la lune se fonde sans créer de « boîte ». -->
+    <radialGradient id="neb1" cx="9%" cy="24%" r="50%"><stop offset="0" stop-color="#78203a" stop-opacity="0.34"/><stop offset="1" stop-color="#78203a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2" cx="15%" cy="90%" r="46%"><stop offset="0" stop-color="#3e2f86" stop-opacity="0.20"/><stop offset="1" stop-color="#3e2f86" stop-opacity="0"/></radialGradient>
     <linearGradient id="rule" x1="0" x2="1"><stop offset="0" stop-color="{ACCENT}"/><stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></linearGradient>
     <!-- L'image de lune, définie une fois (réutilisée pour l'affichage ET comme masque). -->
     <image id="moonimg" href="{href}" x="{ix:.0f}" y="{iy:.0f}" width="{iw:.0f}" height="{ih:.0f}" preserveAspectRatio="xMidYMid slice"/>
     <!-- Fondus des bords (gauche + bas) pour qu'aucun bord droit ne soit net. -->
-    <linearGradient id="gleft" gradientUnits="userSpaceOnUse" x1="815" y1="0" x2="955" y2="0"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="gleft" gradientUnits="userSpaceOnUse" x1="700" y1="0" x2="812" y2="0"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
     <linearGradient id="gbot" gradientUnits="userSpaceOnUse" x1="0" y1="205" x2="0" y2="300"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
     <radialGradient id="goval" cx="{mx:.0f}" cy="{my:.0f}" r="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.6" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
     <!-- Masque « screen » : la luminance de l'image sert d'opacité -> le noir devient transparent. -->
