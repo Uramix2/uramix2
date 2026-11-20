@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="900" height="46" role="img" aria-label="Toolbox">
   <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#b05060"/><stop offset="0.14" stop-color="#b05060" stop-opacity="0.4"/><stop offset="1" stop-color="#b05060" stop-opacity="0.06"/></linearGradient></defs>
-  <text x="2" y="27" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" font-weight="700" fill="#b05060">##</text>
-  <text x="44" y="27" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" font-weight="700" fill="#f0ecf5">Toolbox</text>
+  <text x="2" y="27" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#b05060" font-weight="700">##</text>
+  <text x="44" y="27" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#f0ecf5" font-weight="700">Toolbox</text>
   <rect x="0" y="42" width="900" height="1.5" fill="url(#g)"/>
 </svg>
